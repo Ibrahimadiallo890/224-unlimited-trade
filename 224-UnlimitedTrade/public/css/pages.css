@@ -1,0 +1,120 @@
+/* google fonts start */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+/* google fonts end */
+
+/* html settings start */
+* {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --blue: #2a2185;
+  --white: #fff;
+  --gray: #f5f5f5;
+  --black1: #222;
+  --black2: #999;
+}
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+.container {
+  position: relative;
+  width: 100%;
+}
+/* html settings end */
+
+/* page content start */
+.pages-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: var(--white);
+  margin-top: 20px;
+}
+.pages-content h1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: var(--blue);
+  cursor: pointer;
+}
+.content {
+  padding: 20px;
+  color: var(--black1);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: var(--white);
+}
+.form-group {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.btn {
+  margin-bottom: 10px;
+}
+.btn button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--blue);
+  color: var(--white);
+  cursor: pointer;
+}
+.btn button:hover {
+  background-color: var(--black1);
+}
+/* page content end */
+
+/* success & error messages start */
+.success {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: var(--white);
+  box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+  color: var(--blue);
+  text-align: center;
+  position: fixed;
+  top: 35px;
+  left: 60%;
+  transform: translateX(-50%);
+  z-index: 1000;
+}
+.error {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: var(--white);
+  box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+  color: var(--black1);
+  text-align: center;
+  position: fixed;
+  top: 35px;
+  left: 60%;
+  transform: translateX(-50%);
+  z-index: 1000;
+}
+/* success & error messages end */
